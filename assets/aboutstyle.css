@@ -146,6 +146,10 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+#pranitha-card:hover {
+    background: linear-gradient(135deg, #ec008c 0%, #fc6767 100%);
+}
+
 .team-member:hover h3 {
     color: #e7c9c2;
 }
