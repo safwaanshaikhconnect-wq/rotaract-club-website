@@ -101,6 +101,7 @@ body {
     padding-bottom: 0.5rem;
 }
 
+
 .about-section p {
     font-size: 1.1rem;
     line-height: 1.8;
@@ -108,6 +109,18 @@ body {
 }
 
 /* Team Grid */
+.leadership-top {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.leadership-top .team-member {
+    flex: 0 1 300px;
+}
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
