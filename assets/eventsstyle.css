@@ -1,0 +1,122 @@
+/* Events Page Styles */
+.events-section {
+    padding: 3rem 2rem;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.7rem 1.5rem;
+    background: white;
+    border: 2px solid #667eea;
+    color: #667eea;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: #667eea;
+    color: white;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.event-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(102, 126, 234, 0.3);
+}
+
+.event-date {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-date .month {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.event-date .day {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.event-details {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-details h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.event-location {
+    color: #667eea;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.event-description {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    flex: 1;
+    line-height: 1.5;
+}
+
+.learn-more-btn {
+    background: #667eea;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    align-self: flex-start;
+}
+
+.learn-more-btn:hover {
+    background: #764ba2;
+}
+
+@media (max-width: 768px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-buttons {
+        justify-content: center;
+    }
+}
