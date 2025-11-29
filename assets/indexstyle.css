@@ -8,8 +8,8 @@
 body {
     font-family: 'Inter', 'Segoe UI', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8fafc;
+    color: #1A252F;
+    background-color: #F5E6E0;
 }
 
 .container {
@@ -20,8 +20,8 @@ body {
 
 /* Navbar Styles */
 .navbar {
-    background: #1e293b;
-    /* Dark slate background */
+    background: linear-gradient(90deg, #1A252F 0%, #162e53 100%);
+    /* Dark Blue to Medium Blue gradient */
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     position: sticky;
     top: 0;
@@ -38,7 +38,7 @@ body {
 .logo {
     font-size: 1rem;
     font-weight: 800;
-    color: #fff;
+    color: #E8D4C4;
     cursor: pointer;
     letter-spacing: -0.5px;
 }
@@ -53,8 +53,8 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #cbd5e1;
-    /* Light gray text */
+    color: #E8D4C4;
+    /* Bone/Beige text */
     font-weight: 500;
     transition: all 0.3s ease;
     padding: 0.5rem 1rem;
@@ -63,14 +63,14 @@ body {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #1A252F;
+    background-color: #e7c9c2;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #29384f 0%, #223d63 100%);
+    color: #F5E6E0;
     padding: 6rem 2rem;
     text-align: center;
     max-height: 400px;
@@ -82,17 +82,19 @@ body {
 .hero-content h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #e7c9c2;
 }
 
 .hero-content p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
     opacity: 0.9;
+    color: #efb9ad;
 }
 
 .cta-btn {
-    background: white;
-    color: #667eea;
+    background: linear-gradient(45deg, #d79384, #8b827f);
+    color: #1A252F;
     padding: 0.8rem 2rem;
     border: none;
     border-radius: 5px;
@@ -109,7 +111,7 @@ body {
 /* Stats Section */
 .stats {
     padding: 4rem 2rem;
-    background: #f9f9f9;
+    background: linear-gradient(180deg, #F5E6E0 0%, #E8D4C4 100%);
 }
 
 .stats .container {
@@ -128,22 +130,31 @@ body {
 
 .stat-card h3 {
     font-size: 2.5rem;
-    color: #667eea;
+    color: #3A4D6B;
     margin-bottom: 0.5rem;
-}
-
-.stat-card p {
-    font-size: 1.1rem;
-    color: #666;
 }
 
 /* Footer */
 footer {
-    background: #333;
-    color: white;
+    background: linear-gradient(90deg, #1A252F 0%, #3A4D6B 100%);
+    color: #E8D4C4;
     text-align: center;
     padding: 2rem;
     margin-top: 3rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #e7c9c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive */
