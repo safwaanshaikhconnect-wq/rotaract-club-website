@@ -180,3 +180,23 @@ body {
     font-size: 0.95rem;
     color: #666;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .logo {
+        text-align: center;
+    }
+}
