@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 800;
     color: #fff;
     cursor: pointer;
@@ -73,14 +73,14 @@ body {
     color: white;
     padding: 6rem 2rem;
     text-align: center;
-    min-height: 500px;
+    max-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
