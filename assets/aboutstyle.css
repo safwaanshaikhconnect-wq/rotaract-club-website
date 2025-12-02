@@ -36,11 +36,14 @@ body {
 }
 
 .logo {
-    font-size: 1rem;
-    font-weight: 800;
-    color: #E8D4C4;
     cursor: pointer;
-    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+    width: auto;
 }
 
 .nav-links {
@@ -144,10 +147,6 @@ body {
     background: linear-gradient(135deg, #29384f 0%, #223d63 100%);
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-#pranitha-card:hover {
-    background: linear-gradient(135deg, #ec008c 0%, #fc6767 100%);
 }
 
 .team-member:hover h3 {
